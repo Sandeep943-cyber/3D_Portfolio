@@ -25,6 +25,8 @@ import {
     threejs,
   } from "../assets";
   
+ 
+
   export const navLinks = [
     {
       id: "about",
@@ -108,24 +110,21 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "BTech CSE",
+      company_name: "Graphic Era University (Dehradun)",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2019 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Programming languages: Learned about different programming languages like Java, C++, Python, and more, and developed skills in coding, debugging, and software development.",
+        "Data structures and algorithms: Learned all the basics of data structures and algorithms, which are essential for solving complex programming problems.",
+        "Database management systems: Learned about database design and management, SQL, and other database-related technologies.",
+        "Web development: Learn how to design and develop web applications using different technologies like HTML, CSS, JavaScript, and more.",
       ],
     },
     {
@@ -263,3 +262,4 @@ import {
   ];
   
   export { services, technologies, experiences, testimonials, projects };
+ 
